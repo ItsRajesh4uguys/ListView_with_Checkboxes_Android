@@ -10,6 +10,7 @@
         android:layout_weight="1" >
     </ListView>
 
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,4 +20,17 @@
         android:text="@string/get_answer" >
     </Button>
 
+    <Button
+        android:id="@+id/buttoncheckall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check all" />
+
+    <Button
+        android:id="@+id/buttonuncheckall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="uncheck all" />
+
+    </LinearLayout>
 </LinearLayout>

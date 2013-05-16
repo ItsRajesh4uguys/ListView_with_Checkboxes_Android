@@ -1,11 +1,11 @@
 package com.rajesh.getselecteditem;
 
 public class Position {
-	  String position;	
+	  int  position;	
 	  boolean ischeckedflag;
 	  
 
-	  Position(String name, boolean flag) {
+	  Position(int name, boolean flag) {
 		  position = name;	   
 		  ischeckedflag = flag;
 	  }

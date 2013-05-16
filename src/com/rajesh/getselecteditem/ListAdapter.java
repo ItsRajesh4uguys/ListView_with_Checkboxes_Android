@@ -45,7 +45,7 @@ public class ListAdapter extends BaseAdapter {
 		}
 
 		Position pos = getselectedposition(position);
-		((TextView) view.findViewById(R.id.Textview1)).setText(pos.position);
+		((TextView) view.findViewById(R.id.Textview1)).setText(""+pos.position);
 		CheckBox chkbox = (CheckBox) view.findViewById(R.id.cbBox);
 		chkbox.setOnCheckedChangeListener(myCheckChangList);
 		chkbox.setTag(position);
